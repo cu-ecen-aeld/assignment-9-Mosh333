@@ -1,0 +1,5 @@
+# See: https://buildroot.org/downloads/manual/manual.html#outside-br-custom
+# Since external.desc has "project_base"
+# we simply source "$BR2_EXTERNAL_" + "project_base" + "_path" then the path to 
+# the provide Config.in which seems to be already prepopulated
+source "$BR2_EXTERNAL_project_base_PATH/package/aesd-assignments/Config.in"
