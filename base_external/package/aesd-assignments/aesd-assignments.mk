@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 9558c01500f87848f40fc51d080a9cdf98ab103f #git rev-parse <commit> to get full commit version id 
+AESD_ASSIGNMENTS_VERSION = 4840564116e282ed9d7838974641f23746ef81b8 #git rev-parse <commit> to get full commit version id 
 #the commit used is for commit representing a working fixed a4p2 finder-test.sh in
 #https://github.com/cu-ecen-aeld/assignments-3-and-later-Mosh333/commits/main/
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
