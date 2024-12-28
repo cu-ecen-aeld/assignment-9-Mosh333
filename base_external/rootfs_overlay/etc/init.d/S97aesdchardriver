@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+	start)
+		cd /lib/modules/$(uname -r)/extra
+		aesdchar_load
+        cd "$HOME" || exit
+		;;
+	stop)
+		cd /lib/modules/$(uname -r)/extra
+		aesdchar_unload
+        cd "$HOME" || exit
+		;;
+
+	*)
+		echo "'S97aesdchardriver start' to load aesdchar or 'S97aesdchardriver stop' to unload aesdchar\n"
+		exit 1
+		;;
+esac
+
+exit 0
