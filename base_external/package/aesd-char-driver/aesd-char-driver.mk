@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_CHAR_DRIVER_VERSION = 0b1c0f397c765b3cfdc2f7c318145a525580122a #git rev-parse <commit> to get full commit version id 
+AESD_CHAR_DRIVER_VERSION = 5dcb6f4e0f78fbbb71cf203eef323f3095b78996 #git rev-parse <commit> to get full commit version id 
 #the commit used is for commit representing a working fixed a4p2 finder-test.sh in
 #https://github.com/cu-ecen-aeld/assignments-3-and-later-Mosh333/commits/main/
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
